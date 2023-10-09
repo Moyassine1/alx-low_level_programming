@@ -7,7 +7,7 @@
  *
  * Description: false or true validation
  *
- * Return: 0 (success)
+ * Return 0 (success)
 */
 
 int main(void)
@@ -21,7 +21,6 @@ int main(void)
 	else if (n == 0)
 		printf("%i is zero\n", n);
 	else
-		printf("%i is negative\n", n);
+		printf("%i is negative\n");
 	return (0);
-
 }
